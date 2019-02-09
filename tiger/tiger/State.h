@@ -14,13 +14,13 @@ public:
 	bool calcLeg();
 	int getCNum();
 	int getTNum();
-	vector<pair> getTPos();
-	vector<pair> getCPos();
-	vector<pair> getNotCPos();
+	std::vector<pair> getTPos();
+	std::vector<pair> getCPos();
+	std::vector<pair> getNotCPos();
 private:
-	vector<pair> tPos;
-	vector<pair> cPos;
-	vector<pair> notCPos;
+	std::vector<pair> tPos;
+	std::vector<pair> cPos;
+	std::vector<pair> notCPos;
 	bool leg;
 	int cNum;
 	int tNum;

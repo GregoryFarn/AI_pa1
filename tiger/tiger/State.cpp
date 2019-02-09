@@ -53,17 +53,17 @@ int State::getTNum()
 	return tNum;
 }
 
-vector<pair> State::getTPos()
+std::vector<pair> State::getTPos()
 {
 	return tPos;
 }
 
-vector<pair> State::getCPos()
+std::vector<pair> State::getCPos()
 {
 	return cPos;
 }
 
-vector<pair> State::getNotCPos()
+std::vector<pair> State::getNotCPos()
 {
 	return notCPos;
 }

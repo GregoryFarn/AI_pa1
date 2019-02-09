@@ -8,5 +8,5 @@ public:
 	int aStar();
 private:
 	State curr;
-	vector<Node> child;
+	std::vector<Node> child;
 };
